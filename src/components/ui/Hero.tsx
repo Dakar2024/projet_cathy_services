@@ -37,9 +37,11 @@ const Hero: React.FC<HeroProps> = ({
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
             {title}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-white/90 animate-fade-in" style={{ animationDelay: '200ms' }}>
-            {subtitle}
-          </p>
+          <p
+            className="text-xl md:text-2xl mb-8 text-white/90 animate-fade-in"
+            style={{ animationDelay: '200ms' }}
+            dangerouslySetInnerHTML={{ __html: subtitle }}
+          />
           {(ctaText || secondaryCtaText) && (
             <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: '400ms' }}>
               {ctaText && ctaLink && (

@@ -6,13 +6,14 @@ import TestimonialCard from '../components/ui/TestimonialCard';
 import { services } from '../data/serviceData';
 import { testimonials } from '../data/testimonialsData';
 import accueilImage from '../images/ACCEUIL.jpg';
+import nosServiceImage from '../images/Nos service.jpg';
 
 const Home: React.FC = () => {
   return (
     <>
       <Hero 
         title="Cathy'B-Service"
-        subtitle="Toujours prêt à vous offrir des services sur mesure, adaptés à vos attentes."
+        subtitle="Toujours prêt à vous offrir des services sur mesure,<br />adaptés à vos attentes."
         ctaText="Nos services"
         ctaLink="#services"
         secondaryCtaText="Prendre rendez-vous"
@@ -63,11 +64,11 @@ const Home: React.FC = () => {
                 </Link>
               </div>
             </div>
-            <div className="relative h-[400px] animate-fade-in" style={{ animationDelay: '200ms' }}>
+            <div className="relative h-[500px] max-w-xl mx-auto animate-fade-in" style={{ animationDelay: '200ms' }}>
               <img
-                src="https://images.pexels.com/photos/7641824/pexels-photo-7641824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src={nosServiceImage}
                 alt="Notre équipe"
-                className="w-full h-full object-cover rounded-lg shadow-lg"
+                className="w-full h-full object-cover object-[center_10%] rounded-lg shadow-lg"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 p-6">
                 <p className="text-lg font-semibold">Une équipe à votre écoute</p>

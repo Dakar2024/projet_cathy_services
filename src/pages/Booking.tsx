@@ -52,7 +52,7 @@ const Booking: React.FC = () => {
                   Si vous préférez nous contacter directement ou si vous avez des questions, n'hésitez pas à nous appeler ou à nous envoyer un email.
                 </p>
                 <div className="space-y-2 text-slate-800">
-                  <p><strong>Téléphone:</strong> +33 1 23 45 67 89</p>
+                  <p><strong>Téléphone:</strong> +242 06 805 90 88</p>
                   <p><strong>Email:</strong> contact@cathyb-service.com</p>
                 </div>
               </div>

@@ -28,21 +28,21 @@ const Contact: React.FC = () => {
                     <MapPin size={24} className="text-blue-600 mr-4 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold text-lg text-blue-900 mb-1">Adresse</h3>
-                      <p className="text-slate-700">123 Rue de Paris<br />75000 Paris, France</p>
+                      <p className="text-slate-700"> 22 Rue Bakoukouyas ,poto-poto 2<br />Brazzaville,République du Congo</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <Phone size={24} className="text-blue-600 mr-4 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold text-lg text-blue-900 mb-1">Téléphone</h3>
-                      <p className="text-slate-700">+33 1 23 45 67 89</p>
+                      <p className="text-slate-700">+242 06 805 90 88</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <Mail size={24} className="text-blue-600 mr-4 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold text-lg text-blue-900 mb-1">Email</h3>
-                      <p className="text-slate-700">contact@cathyb-service.com</p>
+                      <p className="text-slate-700">cathybabos15@gmail.com</p>
                     </div>
                   </li>
                   <li className="flex items-start">
